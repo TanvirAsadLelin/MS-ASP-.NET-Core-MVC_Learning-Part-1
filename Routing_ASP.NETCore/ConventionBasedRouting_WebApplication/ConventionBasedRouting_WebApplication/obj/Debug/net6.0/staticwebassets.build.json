@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "l8NDml2dbJwizNW/1LMYkkVtktuDK8OvdiTUvhCVurM=",
+  "Source": "ConventionBasedRouting_WebApplication",
+  "BasePath": "_content/ConventionBasedRouting_WebApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
