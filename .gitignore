@@ -2,7 +2,9 @@
 /ASP.NET_CoreMVC_Learn_Part 1/.vs/ASP.NET_CoreMVC_Learn_Part 1
 /ASP.NET_CoreMVC_Learn_Part 1/ASP.NET_CoreMVC_Learn_Part 1/bin/Debug/net6.0
 /ASP.NET_CoreMVC_Learn_Part 1/ASP.NET_CoreMVC_Learn_Part 1/obj
-/.vs
+*.vs
 /Middlewares_ASP.NETCore/.vs/Middlewares_ASP.NETCore
 /Middlewares_ASP.NETCore/Middlewares_ASP.NETCore/bin/Debug/net6.0
 /Middlewares_ASP.NETCore/Middlewares_ASP.NETCore/obj
+
+*.suo
