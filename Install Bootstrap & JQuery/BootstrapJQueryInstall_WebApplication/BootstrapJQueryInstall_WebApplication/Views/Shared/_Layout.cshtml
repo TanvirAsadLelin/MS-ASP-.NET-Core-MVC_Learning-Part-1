@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+   <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <header>
+           <h1 class="mt-4 p-5 bg-primary text-white rounded">This is header area.</h1> 
+        </header>
+        @RenderBody()
+        <footer>
+            <h1>This is footer area.</h1> 
+        </footer>
+    </div>
+<script src="~/lib/jquery/jquery.js"> </script>
+<script src ="~/lib/twitter-bootstrap/js/bootstrap.js"> </script>
+</body>
+</html>
