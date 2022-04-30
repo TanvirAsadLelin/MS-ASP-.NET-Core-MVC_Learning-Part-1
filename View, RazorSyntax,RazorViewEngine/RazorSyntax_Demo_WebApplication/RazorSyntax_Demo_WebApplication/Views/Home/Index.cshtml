@@ -1,0 +1,83 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>This is Index.</h1>
+<br />
+@*Inline expression , Server site code with mark up code*@
+<h3>Current Date & Time <br /> @DateTime.Now</h3>
+<h3>Current year <br /> @DateTime.Now.Year</h3>
+
+@*Multiple line , Mark up code*@
+
+@{
+    string name= "Md Tanvir Asad";
+    var CurrentDate = DateTime.Now.ToLongDateString(); 
+}
+
+<h3>@name</h3>
+<h3>@CurrentDate</h3>
+
+@*Conditional expression If...Else*@
+
+@{
+    int percentage = 75;
+    if(percentage >= 80)
+    {
+        <h3>Result: A+ </h3>
+    }
+    else
+    {
+        <h3>Result: A </h3>
+    }
+}
+
+@*Switch Statement*@
+
+@{
+    bool value = true;
+
+    switch(value)
+    {
+        case true:
+            <h3>This is true case.</h3>
+            break;
+
+        default:
+            <h3>This is Default</h3>
+            break;
+    }
+
+
+
+}
+
+
+@*Loop Statement*@
+
+@{
+    for (var i = 0; i < 5; i++)
+    {
+        <h1> @i  I love my father & mother.</h1>
+    }
+ }
+
+ @*Foreach Loop Statement*@
+
+@{
+    string[] myArray ={"Lelin","Israt","Jahan"};
+    
+    foreach (var item in myArray)
+    {
+        <h3>@item</h3>
+    }
+ }
+
+
+
+
+
+
+
