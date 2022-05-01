@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model  IEnumerable<StronglyTypedView.Models.Employee>
+
+@{
+}
+
+<h1>Index</h1>
+
+@*<h3>@Model.empName</h3>
+<h3>@Model.empGender</h3>
+<h3>@Model.empDesignation</h3>*@
+
+@{
+    foreach (var item in Model)
+    {
+        <h3>@item.empName</h3>
+        <h3>@item.empGender</h3>
+        <h3>@item.empDesignation</h3>
+        <br />
+    }
+}
